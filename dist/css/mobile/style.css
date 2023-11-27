@@ -1,0 +1,706 @@
+@import url("https://fonts.googleapis.com/css?family=Mulish:200,300,800&display=swap&subset=cyrillic");
+body.featured-collections .i-content {
+  padding: 0;
+}
+body.featured-collections .header-b {
+  display: none;
+}
+body.featured-collections .gotoup ~ noindex {
+  display: none;
+}
+body.featured-collections .promo-content {
+  background: #2B714F;
+  color: #000000;
+  position: relative;
+  text-align: left;
+  font-family: Mulish-Regular, sans-serif;
+}
+body.featured-collections .promo-content .header-block {
+  padding: 0;
+  position: relative;
+}
+body.featured-collections .promo-content .header-block__img {
+  position: relative;
+}
+body.featured-collections .promo-content .header-block__desc {
+  color: #FFFFFF;
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  padding: 0 10px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+body.featured-collections .promo-content .header-block__title {
+  color: #FFFFFF;
+  font-family: Mulish, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+body.featured-collections .promo-content .header-block__subtitle {
+  color: #FFFFFF;
+  font-family: Mulish, sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 2.431px;
+  margin-bottom: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+body.featured-collections .promo-content .header-block__text {
+  padding: 0 22px;
+}
+body.featured-collections .promo-content .giftcards {
+  margin-top: -30px;
+  padding: 0 20px;
+  position: relative;
+}
+body.featured-collections .promo-content .giftcards__line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body.featured-collections .promo-content .giftcards__item {
+  position: relative;
+}
+body.featured-collections .promo-content .giftcards__item.gift-exist .item__show {
+  display: block;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+body.featured-collections .promo-content .giftcards__item.gift-exist:hover .item__show {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+body.featured-collections .promo-content .giftcards__item.gift-exist .item__hide {
+  display: none;
+}
+body.featured-collections .promo-content .giftcards .item__show {
+  cursor: pointer;
+  display: none;
+}
+body.featured-collections .promo-content .giftcards .item__hide {
+  cursor: pointer;
+}
+body.featured-collections .promo-content .giftcards .item__hide:hover ~ .giftcards__tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+body.featured-collections .promo-content .giftcards .giftcards__tooltip {
+  display: none;
+}
+body.featured-collections .promo-content .giftcards .december-14 .giftcards__tooltip,
+body.featured-collections .promo-content .giftcards .december-18 .giftcards__tooltip,
+body.featured-collections .promo-content .giftcards .december-21 .giftcards__tooltip,
+body.featured-collections .promo-content .giftcards .december-24 .giftcards__tooltip {
+  right: 50%;
+  left: auto;
+}
+body.featured-collections .promo-content .giftcards .december-11 {
+  -ms-flex-preferred-size: 177px;
+      flex-basis: 177px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 0 15px 0 0;
+}
+body.featured-collections .promo-content .giftcards .december-12 {
+  -ms-flex-preferred-size: 133px;
+      flex-basis: 133px;
+}
+body.featured-collections .promo-content .giftcards .december-13 {
+  -ms-flex-preferred-size: 152px;
+      flex-basis: 152px;
+  margin: 16px 0 0;
+  padding: 0 16px 0 0;
+}
+body.featured-collections .promo-content .giftcards .december-14 {
+  -ms-flex-preferred-size: 183px;
+      flex-basis: 183px;
+  margin: 16px 0 0;
+}
+body.featured-collections .promo-content .giftcards .december-15 {
+  -ms-flex-preferred-size: 170px;
+      flex-basis: 170px;
+  margin: -167px 0 0 140px;
+}
+body.featured-collections .promo-content .giftcards .december-16 {
+  -ms-flex-preferred-size: 311px;
+      flex-basis: 311px;
+  margin: 19px 0 17px 0;
+}
+body.featured-collections .promo-content .giftcards .december-17 {
+  -ms-flex-preferred-size: 163px;
+      flex-basis: 163px;
+  padding: 0 8px 0 0;
+}
+body.featured-collections .promo-content .giftcards .december-18 {
+  -ms-flex-preferred-size: 172px;
+      flex-basis: 172px;
+  margin: 0 0 12px;
+  padding: 0 0 0 8px;
+}
+body.featured-collections .promo-content .giftcards .december-19 {
+  -ms-flex-preferred-size: 137px;
+      flex-basis: 137px;
+  margin: -60px 0 0 0;
+  padding: 0 12px 0 0;
+}
+body.featured-collections .promo-content .giftcards .december-20 {
+  -ms-flex-preferred-size: 159px;
+      flex-basis: 159px;
+  padding: 0 0 0 4px;
+}
+body.featured-collections .promo-content .giftcards .december-21 {
+  -ms-flex-preferred-size: 335px;
+      flex-basis: 335px;
+  margin: 16px 0;
+}
+body.featured-collections .promo-content .giftcards .december-22 {
+  -ms-flex-preferred-size: 156px;
+      flex-basis: 156px;
+  padding: 0 8px 0 0;
+}
+body.featured-collections .promo-content .giftcards .december-23 {
+  -ms-flex-preferred-size: 155px;
+      flex-basis: 155px;
+  padding: 0 0 0 8px;
+}
+body.featured-collections .promo-content .giftcards .december-24 {
+  -ms-flex-preferred-size: 148px;
+      flex-basis: 148px;
+  margin: -35px auto 60px 4%;
+}
+@media screen and (max-width: 430px) {
+  body.featured-collections .promo-content .giftcards .december-24 {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 414px) {
+  body.featured-collections .promo-content .giftcards .december-24 {
+    margin-left: 8.5%;
+  }
+}
+@media screen and (max-width: 390px) {
+  body.featured-collections .promo-content .giftcards .december-24 {
+    margin-left: 6%;
+  }
+}
+@media screen and (max-width: 375px) {
+  body.featured-collections .promo-content .giftcards .december-24 {
+    margin-left: 4%;
+  }
+}
+@media screen and (max-width: 360px) {
+  body.featured-collections .promo-content .giftcards {
+    margin: 0;
+  }
+  body.featured-collections .promo-content .giftcards .december-13 {
+    -ms-flex-preferred-size: 145px;
+        flex-basis: 145px;
+  }
+  body.featured-collections .promo-content .giftcards .december-14 {
+    -ms-flex-preferred-size: 175px;
+        flex-basis: 175px;
+  }
+  body.featured-collections .promo-content .giftcards .december-17 {
+    -ms-flex-preferred-size: 155px;
+        flex-basis: 155px;
+  }
+  body.featured-collections .promo-content .giftcards .december-18 {
+    -ms-flex-preferred-size: 165px;
+        flex-basis: 165px;
+  }
+  body.featured-collections .promo-content .giftcards .december-24 {
+    margin-left: 1.5%;
+  }
+}
+@media screen and (max-width: 320px) {
+  body.featured-collections .promo-content .giftcards {
+    margin-top: 50px;
+  }
+  body.featured-collections .promo-content .giftcards .december-11 {
+    -ms-flex-preferred-size: 150px;
+        flex-basis: 150px;
+  }
+  body.featured-collections .promo-content .giftcards .december-12 {
+    -ms-flex-preferred-size: 120px;
+        flex-basis: 120px;
+  }
+  body.featured-collections .promo-content .giftcards .december-13 {
+    -ms-flex-preferred-size: 135px;
+        flex-basis: 135px;
+  }
+  body.featured-collections .promo-content .giftcards .december-14 {
+    -ms-flex-preferred-size: 145px;
+        flex-basis: 145px;
+  }
+  body.featured-collections .promo-content .giftcards .december-15 {
+    -ms-flex-preferred-size: 150px;
+        flex-basis: 150px;
+    margin: -151px 0 0 137px;
+  }
+  body.featured-collections .promo-content .giftcards .december-16 {
+    -ms-flex-preferred-size: 311px;
+        flex-basis: 311px;
+  }
+  body.featured-collections .promo-content .giftcards .december-17 {
+    -ms-flex-preferred-size: 140px;
+        flex-basis: 140px;
+  }
+  body.featured-collections .promo-content .giftcards .december-18 {
+    -ms-flex-preferred-size: 140px;
+        flex-basis: 140px;
+  }
+  body.featured-collections .promo-content .giftcards .december-19 {
+    -ms-flex-preferred-size: 125px;
+        flex-basis: 125px;
+    margin: -45px 0 0 0;
+  }
+  body.featured-collections .promo-content .giftcards .december-20 {
+    -ms-flex-preferred-size: 150px;
+        flex-basis: 150px;
+  }
+  body.featured-collections .promo-content .giftcards .december-21 {
+    -ms-flex-preferred-size: 335px;
+        flex-basis: 335px;
+  }
+  body.featured-collections .promo-content .giftcards .december-22 {
+    -ms-flex-preferred-size: 140px;
+        flex-basis: 140px;
+  }
+  body.featured-collections .promo-content .giftcards .december-23 {
+    -ms-flex-preferred-size: 140px;
+        flex-basis: 140px;
+  }
+  body.featured-collections .promo-content .giftcards .december-24 {
+    -ms-flex-preferred-size: 140px;
+        flex-basis: 140px;
+    margin: -25px auto 60px 0;
+    padding-right: 8px;
+  }
+}
+body.featured-collections .promo-content .popup-advent {
+  line-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+body.featured-collections .promo-content .popup-advent__bg {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body.featured-collections .promo-content .popup-advent__desc {
+  padding: 0 20px;
+  position: absolute;
+}
+body.featured-collections .promo-content .popup-advent__copy {
+  display: inline-block;
+  margin-left: 13px;
+}
+body.featured-collections .promo-content .popup-advent__date {
+  font-family: Mulish-Regular, sans-serif;
+  font-size: 18px;
+  line-height: 15.891px;
+  letter-spacing: 2.648px;
+  text-transform: uppercase;
+}
+body.featured-collections .promo-content .popup-advent__title {
+  font-family: Mulish-Regular, sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 2px;
+  margin: 20px 0 10px;
+  text-transform: uppercase;
+}
+body.featured-collections .promo-content .popup-advent__text {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+body.featured-collections .promo-content .popup-advent__link {
+  color: #181818;
+  font-family: Mulish-Bold, sans-serif;
+  font-size: 16px;
+  line-height: 30.016px;
+  letter-spacing: 2.648px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+body.featured-collections .promo-content .popup-advent__link:hover .popup-advent__arrow {
+  left: 40px;
+}
+body.featured-collections .promo-content .popup-advent__arrow {
+  position: relative;
+  left: 20px;
+  -webkit-transition: left 0.3s ease-in-out;
+  transition: left 0.3s ease-in-out;
+}
+body.featured-collections .promo-content .popup-advent__btn {
+  border-radius: 18px;
+  border: 1px dashed #181818;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  line-height: 42px;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+body.featured-collections .promo-content .popup-advent__close {
+  padding: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 101;
+}
+body.featured-collections .promo-content .popup-advent--white {
+  background: #F4F4F4;
+  color: #181818;
+}
+body.featured-collections .promo-content .popup-advent--white .popup-advent__close {
+  cursor: pointer;
+}
+body.featured-collections .promo-content .popup-advent--white .popup-advent__close svg line {
+  stroke: #181818;
+}
+body.featured-collections .promo-content .popup-advent--white .popup-advent__btn {
+  color: #181818;
+}
+body.featured-collections .promo-content .popup-advent--white .popup-advent__arrow {
+  fill: #181818;
+}
+body.featured-collections .promo-content .popup-advent--grey {
+  color: #181818;
+}
+body.featured-collections .promo-content .popup-advent--grey .popup-advent__close {
+  cursor: pointer;
+}
+body.featured-collections .promo-content .popup-advent--grey .popup-advent__close svg line {
+  stroke: #181818;
+}
+body.featured-collections .promo-content .popup-advent--grey .popup-advent__arrow {
+  fill: #181818;
+}
+body.featured-collections .promo-content .popup-advent--grey .popup-advent__btn {
+  color: #181818;
+}
+body.featured-collections .promo-content .popup-advent--grey .popup-advent__link {
+  color: #181818;
+}
+body.featured-collections .promo-content .popup-advent--green {
+  background: #2B714F;
+  color: #FFFFFF;
+}
+body.featured-collections .promo-content .popup-advent--green .popup-advent__close {
+  cursor: pointer;
+}
+body.featured-collections .promo-content .popup-advent--green .popup-advent__close svg line {
+  stroke: #FFFFFF;
+}
+body.featured-collections .promo-content .popup-advent--green .popup-advent__btn {
+  border: 1px dashed #FFFFFF;
+  color: #FFFFFF;
+}
+body.featured-collections .promo-content .popup-advent--green .popup-advent__copy {
+  fill: #FFFFFF;
+}
+body.featured-collections .promo-content .popup-advent--green .popup-advent__link {
+  color: #FFFFFF;
+}
+body.featured-collections .promo-content .popup-advent--left .popup-advent__desc {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: left;
+  width: 100%;
+}
+body.featured-collections .promo-content .popup-advent--center {
+  text-align: center;
+}
+body.featured-collections .promo-content .popup-advent--center .popup-advent__desc {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+}
+body.featured-collections .promo-content .popup-december-12 .popup-advent__desc {
+  top: 75vw;
+  text-align: left;
+}
+body.featured-collections .promo-content .popup-december-12 .popup-advent__bg {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body.featured-collections .promo-content .popup-december-13 .popup-advent__desc {
+  top: 70vw;
+  text-align: left;
+}
+body.featured-collections .promo-content .popup-december-14 .popup-advent__desc {
+  top: 40%;
+  text-align: left;
+}
+body.featured-collections .promo-content .popup-december-15 .popup-advent__desc {
+  top: auto;
+  bottom: 40px;
+  -webkit-transform: none;
+          transform: none;
+  width: 100%;
+}
+body.featured-collections .promo-content .popup-december-16 {
+  text-align: left;
+}
+body.featured-collections .promo-content .popup-december-16 .popup-advent__desc {
+  top: auto;
+  left: auto;
+  bottom: 40px;
+  -webkit-transform: none;
+          transform: none;
+  width: 100%;
+}
+body.featured-collections .promo-content .popup-december-17 {
+  text-align: left;
+}
+body.featured-collections .promo-content .popup-december-17 .popup-advent__desc {
+  top: 10%;
+  left: auto;
+  -webkit-transform: none;
+          transform: none;
+  width: 100%;
+}
+body.featured-collections .promo-content .popup-december-18 {
+  text-align: left;
+}
+body.featured-collections .promo-content .popup-december-18 .popup-advent__desc {
+  top: 10%;
+  left: auto;
+  -webkit-transform: none;
+          transform: none;
+  width: 100%;
+}
+body.featured-collections .promo-content .popup-december-19 {
+  text-align: left;
+}
+body.featured-collections .promo-content .popup-december-19 .popup-advent__desc {
+  top: 10%;
+  left: auto;
+  -webkit-transform: none;
+          transform: none;
+  width: 100%;
+}
+body.featured-collections .promo-content .popup-december-20 {
+  text-align: left;
+}
+body.featured-collections .promo-content .popup-december-20 .popup-advent__desc {
+  top: auto;
+  left: auto;
+  bottom: 40px;
+  -webkit-transform: none;
+          transform: none;
+  width: 100%;
+}
+body.featured-collections .promo-content .popup-december-21 {
+  text-align: left;
+}
+body.featured-collections .promo-content .popup-december-21 .popup-advent__desc {
+  top: 10%;
+  left: auto;
+  -webkit-transform: none;
+          transform: none;
+  width: 100%;
+}
+body.featured-collections .promo-content .popup-december-22 {
+  text-align: left;
+}
+body.featured-collections .promo-content .popup-december-22 .popup-advent__desc {
+  top: 10%;
+  left: auto;
+  -webkit-transform: none;
+          transform: none;
+  width: 100%;
+}
+body.featured-collections .promo-content .popup-december-23 {
+  text-align: left;
+}
+body.featured-collections .promo-content .popup-december-23 .popup-advent__desc {
+  top: 20%;
+  left: auto;
+  -webkit-transform: none;
+          transform: none;
+  width: 100%;
+}
+body.featured-collections .promo-content .popup-december-24 {
+  text-align: left;
+}
+body.featured-collections .promo-content .popup-december-24 .popup-advent__desc {
+  top: 20%;
+  left: auto;
+  -webkit-transform: none;
+          transform: none;
+  width: 100%;
+}
+@media screen and (max-width: 360px) {
+  body.featured-collections .promo-content .popup-advent__title {
+    margin: 10px 0 5px;
+  }
+  body.featured-collections .promo-content .popup-advent__text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  body.featured-collections .promo-content .popup-december-12 .popup-advent__desc {
+    top: 10%;
+    left: auto;
+    text-align: left;
+    -webkit-transform: none;
+            transform: none;
+  }
+  body.featured-collections .promo-content .popup-december-13 .popup-advent__desc {
+    top: 10%;
+    left: auto;
+    text-align: left;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  body.featured-collections .promo-content .popup-advent__title {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+body.featured-collections .promo-content .slick-arrow {
+  display: none;
+}
+body.featured-collections .promo-content .slick-arrow:before {
+  content: none;
+}
+body.featured-collections .promo-content .slick-arrow.slick-next {
+  right: 0;
+}
+body.featured-collections .promo-content .slick-arrow.slick-prev {
+  left: 0;
+  -webkit-transform: translateY(-50%) rotate(180deg);
+          transform: translateY(-50%) rotate(180deg);
+}
+body.featured-collections .promo-content .slick-disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+body.featured-collections .promo-content .slick-dots {
+  bottom: 7rem;
+}
+body.featured-collections .promo-content .slick-dots li {
+  background: rgba(119, 119, 118, 0.3);
+  border-radius: 100%;
+  margin-right: 0.5rem;
+  height: 0.7rem;
+  width: 0.7rem;
+}
+body.featured-collections .promo-content .slick-dots li.slick-active {
+  background: #8F8F8F;
+}
+body.featured-collections .promo-content .slick-dots li button:before {
+  content: none;
+}
+body.featured-collections .promo-content .goods-block {
+  margin: 0 auto 2rem;
+}
+body.featured-collections .promo-content .goods-block .goods {
+  font-size: 0;
+  line-height: 0;
+  margin-bottom: 2rem;
+}
+body.featured-collections .promo-content .goods-block__good {
+  color: #181818;
+  display: inline-block;
+  font-family: Mulish-Bold, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.01em;
+  padding: 0 2.5rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 25%;
+}
+body.featured-collections .promo-content .goods-block__title {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  margin-bottom: 1.2rem;
+}
+body.featured-collections .promo-content .goods-block__img {
+  margin-bottom: 2.6rem;
+}
+body.featured-collections .promo-content .goods-block__btn {
+  background: #181818;
+  border: 1px solid #181818;
+  color: #FFFFFF;
+  display: block;
+  font-family: Mulish-Bold, sans-serif;
+  font-size: 1.4rem;
+  line-height: 4.4rem;
+  letter-spacing: 0.01em;
+  margin: 0 auto 11.5rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 4.4rem;
+  width: 19rem;
+}
+body.featured-collections .promo-content .goods-block__btn:hover {
+  background: #FFFFFF;
+  border: 1px solid #181818;
+  color: #181818;
+}
+body.featured-collections .promo-content .bg-popup {
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+body.featured-collections.in-popup-advent {
+  overflow: hidden;
+}
+body.featured-collections.in-popup-advent .bg-popup {
+  display: block;
+}
+body.featured-collections.in-popup-advent .popup-advent--show {
+  opacity: 1;
+  visibility: visible;
+}
+body.featured-collections #subscribe-form {
+  margin-bottom: 2.1rem;
+}

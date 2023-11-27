@@ -1,0 +1,196 @@
+.giftcards {
+  margin-top: -30px;
+  padding: 0 20px;
+  position: relative;
+  &__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__item {
+    position: relative;
+    &.gift-exist {
+      .item__show {
+        display: block;
+        transition: transform .3s ease-in-out;
+      }
+      &:hover {
+        .item__show {
+          transform: scale(1.05);
+        }
+      }
+      .item__hide {
+        display: none;
+      }
+    }
+  }
+  .item__show {
+    cursor: pointer;
+    display: none;
+  }
+  .item__hide {
+    cursor: pointer;
+    &:hover {
+      &~.giftcards__tooltip {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+  .giftcards__tooltip {
+    display: none;
+  }
+  .december-14 .giftcards__tooltip,
+  .december-18 .giftcards__tooltip,
+  .december-21 .giftcards__tooltip,
+  .december-24 .giftcards__tooltip {
+    right: 50%;
+    left: auto;
+  }
+  .december-11 {
+    flex-basis: 177px;
+    align-self: flex-end;
+    padding: 0 15px 0 0;
+  }
+  .december-12 {
+    flex-basis: 133px;
+  }
+  .december-13 {
+    flex-basis: 152px;
+    margin: 16px 0 0;
+    padding: 0 16px 0 0;
+  }
+  .december-14 {
+    flex-basis: 183px;
+    margin: 16px 0 0;
+  }
+  .december-15 {
+    flex-basis: 170px;
+    margin: -167px 0 0 140px;
+  }
+  .december-16 {
+    flex-basis: 311px;
+    margin: 19px 0 17px 0;
+  }
+  .december-17 {
+    flex-basis: 163px;
+    padding: 0 8px 0 0;
+  }
+  .december-18 {
+    flex-basis: 172px;
+    margin: 0 0 12px;
+    padding: 0 0 0 8px;
+  }
+  .december-19 {
+    flex-basis: 137px;
+    margin: -60px 0 0 0;
+    padding: 0 12px 0 0;
+  }
+  .december-20 {
+    flex-basis: 159px;
+    padding: 0 0 0 4px;
+  }
+  .december-21 {
+    flex-basis: 335px;
+    margin: 16px 0;
+  }
+  .december-22 {
+    flex-basis: 156px;
+    padding: 0 8px 0 0;
+  }
+  .december-23 {
+    flex-basis: 155px;
+    padding: 0 0 0 8px;
+  }
+  .december-24 {
+    flex-basis: 148px;
+    margin: -35px auto 60px 4%;
+  }
+  @media screen and (max-width: 430px) {
+    .december-24 {
+      margin-left: 10%;
+    }
+  }
+  @media screen and (max-width: 414px) {
+    .december-24 {
+      margin-left: 8.5%;
+    }
+  }
+  @media screen and (max-width: 390px) {
+    .december-24 {
+      margin-left: 6%;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .december-24 {
+      margin-left: 4%;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    margin: 0;
+    .december-13 {
+      flex-basis: 145px;
+    }
+    .december-14 {
+      flex-basis: 175px;
+    }
+    .december-17 {
+      flex-basis: 155px;
+    }
+    .december-18 {
+      flex-basis: 165px;
+    }
+    .december-24 {
+      margin-left: 1.5%;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    margin-top: 50px;
+    .december-11 {
+      flex-basis: 150px;
+    }
+    .december-12 {
+      flex-basis: 120px;
+    }
+    .december-13 {
+      flex-basis: 135px;
+    }
+    .december-14 {
+      flex-basis: 145px;
+    }
+    .december-15 {
+      flex-basis: 150px;
+      margin: -151px 0 0 137px;
+    }
+    .december-16 {
+      flex-basis: 311px;
+    }
+    .december-17 {
+      flex-basis: 140px;
+    }
+    .december-18 {
+      flex-basis: 140px;
+    }
+    .december-19 {
+      flex-basis: 125px;
+      margin: -45px 0 0 0;
+    }
+    .december-20 {
+      flex-basis: 150px;
+    }
+    .december-21 {
+      flex-basis: 335px;
+    }
+    .december-22 {
+      flex-basis: 140px;
+    }
+    .december-23 {
+      flex-basis: 140px;
+    }
+    .december-24 {
+      flex-basis: 140px;
+      margin: -25px auto 60px 0;
+      padding-right: 8px;
+    }
+  }
+}
