@@ -1,0 +1,244 @@
+.giftcards {
+  margin: -190px auto 90px;
+  max-width: 1366px;
+  padding: 0 5px;
+  position: relative;
+  &__line {
+    display: flex;
+  }
+  &__item {
+    position: relative;
+    &.gift-exist {
+      .item__show {
+        display: block;
+        transition: transform .3s ease-in-out;
+      }
+      &:hover {
+        .item__show {
+          transform: scale(1.05);
+        }
+      }
+      .item__hide {
+        display: none;
+      }
+    }
+  }
+  .item__show {
+    cursor: pointer;
+    display: none;
+  }
+  .item__hide {
+    cursor: pointer;
+    &:hover {
+      &~.giftcards__tooltip {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+  .giftcards__tooltip {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 340px;
+    opacity: 0;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    visibility: hidden;
+    transition: all .2s ease-in-out;
+    width: 100%;
+    z-index: 1;
+    &:hover {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  .december-14 .giftcards__tooltip,
+  .december-18 .giftcards__tooltip,
+  .december-21 .giftcards__tooltip,
+  .december-24 .giftcards__tooltip {
+    right: 50%;
+    left: auto;
+  }
+  .december-11 {
+    flex-basis: 424px;
+    margin: 26px 0 35px;
+    padding: 0 33px;
+  }
+  .december-12 {
+    flex-basis: 321px;
+    margin: 0 0 35px 0;
+    padding: 0 35px 0 0;
+  }
+  .december-13 {
+    flex-basis: 279px;
+    margin: 26px 0 35px 0;
+    padding: 0 35px 0 0;
+  }
+  .december-14 {
+    flex-basis: 328px;
+    margin-top: 120px;
+  }
+  .december-15 {
+    flex-basis: 311px;
+    margin: -135px 0 35px;
+    padding: 0 35px 0 0;
+  }
+  .december-16 {
+    flex-basis: 436px;
+    margin: -135px 0 35px 0;
+    padding: 0 35px 0 0;
+  }
+  .december-17 {
+    flex-basis: 279px;
+    margin: 0 0 35px 0;
+    padding: 0 35px 0 0;
+  }
+  .december-18 {
+    flex-basis: 321px;
+    margin: -135px 0 35px;
+  }
+  .december-19 {
+    flex-basis: 313px;
+    margin: 0;
+    padding: 0 35px;
+  }
+  .december-20 {
+    flex-basis: 436px;
+    margin: -165px 0 35px 0;
+    padding: 0 35px 0 0;
+  }
+  .december-21 {
+    flex-basis: 607px;
+  }
+  .december-22 {
+    flex-basis: 334px;
+    margin: -230px 0 0 310px;
+    padding: 0 35px 0 0;
+  }
+  .december-23 {
+    flex-basis: 332px;
+    margin: -230px 0 0 0;
+    padding: 0 35px 0 0;
+  }
+  .december-24 {
+    flex-basis: 335px;
+    margin: -230px 0 0 0;
+  }
+  @media screen and (max-width: 1365px) {
+    .december-11 {
+
+    }
+    .december-12 {
+
+    }
+    .december-13 {
+
+    }
+    .december-14 {
+
+    }
+    .december-15 {
+
+    }
+    .december-16 {
+
+    }
+    .december-17 {
+
+    }
+    .december-18 {
+
+    }
+    .december-19 {
+
+    }
+    .december-20 {
+
+    }
+    .december-21 {
+
+    }
+    .december-22 {
+
+    }
+    .december-23 {
+
+    }
+    .december-24 {
+
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .december-14 {
+      margin-top: 100px;
+    }
+    .december-15 {
+      margin: -105px 0 35px;
+    }
+    .december-16 {
+      margin: -105px 0 35px;
+    }
+    .december-18 {
+      margin: -105px 0 35px;
+    }
+    .december-22 {
+      margin: -210px 0 0 295px;
+    }
+    .december-23 {
+      margin: -210px 0 0 0;
+    }
+    .december-24 {
+      margin: -210px 0 0 0;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .december-14 {
+      margin-top: 100px;
+    }
+    .december-15 {
+      margin: -105px 0 35px;
+    }
+    .december-16 {
+      margin: -105px 0 35px;
+    }
+    .december-18 {
+      margin: -105px 0 35px;
+    }
+    .december-22 {
+      margin: -190px 0 0 24%;
+    }
+    .december-23 {
+      margin: -170px 0 0 0;
+    }
+    .december-24 {
+      margin: -170px 0 0 0;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .december-14 {
+      margin-top: 80px;
+    }
+    .december-15 {
+      margin: -105px 0 35px;
+    }
+    .december-16 {
+      margin: -105px 0 35px;
+    }
+    .december-18 {
+      margin: -105px 0 35px;
+    }
+    .december-22 {
+      margin: -200px 0 0 240px;
+    }
+    .december-23 {
+      margin: -160px 0 0 0;
+    }
+    .december-24 {
+      margin: -160px 0 0 0;
+    }
+  }
+}
